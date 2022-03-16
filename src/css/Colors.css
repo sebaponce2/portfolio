@@ -1,0 +1,17 @@
+/* Backgrounds */
+
+.bg-black {
+    background-color: black !important;
+}
+.bg-grey-dark {
+    background-color: rgb(41, 41, 41) !important;
+}
+
+/* Fonts */
+.font-white {
+    color: white !important;
+}
+
+.font-black {
+    color: black !important;
+}

@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-page {
+    width: 100% !important;
+}
+
+.spacing-5 {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+}

@@ -1,11 +1,17 @@
-import './App.css';
+// Components imports
+import Container from './components/Container';
+
+// Bootstrap imports
+import './css/App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/js/src/collapse.js";
+
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="">Hola mundo</h1>
-    </div>
+    <>
+      <Container/>
+    </>
   );
 }
 

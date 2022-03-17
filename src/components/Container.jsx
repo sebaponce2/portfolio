@@ -24,9 +24,9 @@ const Container = () => {
             <section className="spacing-4 bg-grey-dark px-3 m-auto ">
                 <Skills/>
             </section>
-            {/* <section className="row spacing-4 mx-0">
+            <section className="row spacing-4 mx-0">
                 <Projects/>
-            </section> */}
+            </section>
         </div>
      );
 }

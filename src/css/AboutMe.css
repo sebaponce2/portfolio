@@ -1,0 +1,8 @@
+.img {
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    box-shadow: 0px 2px 6px 0px;
+}

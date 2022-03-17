@@ -6,6 +6,12 @@
 .bg-grey-dark {
     background-color: rgb(41, 41, 41) !important;
 }
+.bg-white {
+    background-color: white !important;
+}
+.bg-input {
+    background-color: rgb(226, 226, 226);
+}
 
 /* Fonts */
 .font-white {

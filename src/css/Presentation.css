@@ -16,3 +16,18 @@
     background-color: rgb(17, 17, 17);
     color: white;
 }
+
+h1 {
+    width: 60%;
+}
+@media screen and (min-width: 838px) {
+    h1 {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        width: 35%;
+    }
+}

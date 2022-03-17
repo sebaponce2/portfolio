@@ -5,6 +5,7 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
+import Footer from "./Footer";
 
 // Css imports 
 import "../css/App.css";
@@ -31,6 +32,9 @@ const Container = () => {
             <section className="spacing-4 bg-grey-dark px-3 m-auto">
                 <ContactMe/>
             </section>
+            <footer className="spacing-3 bg-black px-4">
+                <Footer/>
+            </footer>
         </div>
      );
 }

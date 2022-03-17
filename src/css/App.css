@@ -6,13 +6,17 @@
 .container-page {
     width: 100% !important;
 }
-
-.spacing-5 {
-    padding-top: 8rem !important;
-    padding-bottom: 8rem !important;
+.spacing-3 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
 
 .spacing-4 {
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
+}
+
+.spacing-5 {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
 }

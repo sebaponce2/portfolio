@@ -1,9 +1,9 @@
-
+import "../css/Colors.css";
 
 const Navbar = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <nav class="navbar navbar-expand-md navbar-light bg-light w-100" style={{position: 'fixed'}}>
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             Sebastián

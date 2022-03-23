@@ -5,10 +5,10 @@ import "../css/Footer.css";
 const Footer = () => {
     return ( 
         <>
-            <div className="row">
+            <div className="row main-container">
                 <div className="col-md-6 font-white pb-4">
                     <h4 className="text-uppercase pb-2">Sebastián Martín Ponce</h4>
-                    <p>Gracias por visitar mi portfolio. Espero que te haya gustado</p>
+                    <p>Gracias por visitar mi portfolio. Espero que te haya gustado.</p>
                 </div>
                 <div className="col-md-6 font-white social">
                     <h4 className="text-uppercase pb-2">Redes sociales</h4>

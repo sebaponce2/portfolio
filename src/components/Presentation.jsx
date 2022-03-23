@@ -7,7 +7,7 @@ const Presentation = () => {
             <h1 className="text-center font-white m-auto">Hola, soy Sebastián Martín Ponce</h1>
             <div className="text-center m-auto py-3 font-white">
                 <p className="m-auto">
-                    !Bienvenido a mi portfolio¡. Desde ya estoy agradecido de que te tomes el tiempo de entrar a mi portfolio. Te invito a pasar por las siguientes secciones y puedas conocerme un poquito más.
+                    !Bienvenido a mi portfolio¡. Desde ya estoy agradecido de que te tomes el tiempo de visitarlo. Te invito a pasar por las siguientes secciones y puedas conocerme un poquito más.
                 </p>
             </div>
             <div className="text-center my-3 pt-3">
@@ -16,5 +16,4 @@ const Presentation = () => {
         </>
      );
 }
- 
 export default Presentation;

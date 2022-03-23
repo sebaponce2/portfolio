@@ -1,0 +1,22 @@
+.buttons-hover {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.buttons-hover:hover {
+    background-color: rgb(41, 41, 41) !important;
+    color: white !important;
+}
+
+.img-radius {
+    width: 2.8% !important;
+    margin-right: 0.5rem !important;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}

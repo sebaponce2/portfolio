@@ -1,0 +1,63 @@
+.width-buttons {
+    width: 67%;
+}
+
+@media screen and (max-width: 290px) {
+    .width-buttons {
+        width: 80%;
+    }
+}
+
+
+
+.p-buttons {
+    padding-top: 0rem;
+}
+
+@media screen and (max-width: 767px) {
+    .p-buttons {
+        padding-top: 2.5rem;
+    }
+}
+.buttons {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.7rem;
+    background-color: rgb(41, 41, 41) !important;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.buttons:hover {
+    background-color: rgb(17, 17, 17) !important;
+    color: white;
+}
+
+.pt-lg-4 {
+    padding-top: 0rem;
+}
+
+@media screen and (max-width: 991px) {
+    .pt-lg-4 {
+        padding-top: 4rem !important;
+    }
+}   
+
+.project-width {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .project-width {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .project-width {
+        width: 55%;
+    }
+}

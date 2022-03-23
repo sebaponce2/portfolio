@@ -11,7 +11,7 @@ const AboutMe = () => {
                 <h2 className="text-uppercase pt-4">Sobre mi</h2>
             </div>
             <hr className='m-auto w-50 mt-3 p-0'/>
-            <p className="text-center px-3 py-5 m-auto">Bienvenido a la sección <span className="fw-bold">Sobre mi</span>. En esta sección quiero contarte un poco sobre quien soy y a qué me dedico.</p>
+            <p className="text-center px-3 py-5 m-auto">Bienvenido a la sección <span className="fw-bold">Sobre mi</span>. En esta sección quiero contarte un poco acerca de quién soy y a qué me dedico.</p>
             <div className="container-image m-auto py-2">
                 <img src={profileImage} alt="sebastianponce" className="w-100 img"/>
             </div>

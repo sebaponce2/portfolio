@@ -17,8 +17,10 @@ const Container = () => {
             <header>
                 <Navbar/>
             </header>
-            <section className="spacing-5 bg-grey-dark">
-                <Presentation/>
+            <section className="spacing-5 bg-grey-dark h-100vh d-flex align-items-center">
+                <div className="col">
+                    <Presentation/>
+                </div>
             </section>
             <section className="row spacing-4 mx-0">
                 <AboutMe/>

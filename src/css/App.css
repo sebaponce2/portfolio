@@ -3,7 +3,7 @@
     margin: 0;
 }
 .main-container {
-    max-width: 120rem !important;
+    max-width: 75rem !important;
     width: 92% !important;
     margin: auto !important;
 }
@@ -28,4 +28,26 @@
 
 .h-100vh {
     height: 100vh !important;
+}
+
+
+/* Scroll  */
+
+#style-1::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
 }

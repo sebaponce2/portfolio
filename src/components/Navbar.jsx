@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
       <nav class="navbar navbar-expand-md navbar-light bg-light w-100" style={{position: 'fixed'}}>
         <div class="container-fluid">
-          <img src={me} alt="sebastianponce" className="img-radius"/>
+          <img src={me} alt="sebastianponce" className="img-radius d-none d-md-block"/>
           <a class="navbar-brand" href="#">
             Sebastián Ponce
           </a>

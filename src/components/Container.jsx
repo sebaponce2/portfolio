@@ -31,7 +31,7 @@ const Container = () => {
             <section className="row spacing-4 mx-0">
                 <Projects/>
             </section>
-            <section className="spacing-4 bg-grey-dark px-3 m-auto">
+            <section className="spacing-4 bg-grey-dark m-auto">
                 <ContactMe/>
             </section>
             <footer className="spacing-3 bg-black px-4">

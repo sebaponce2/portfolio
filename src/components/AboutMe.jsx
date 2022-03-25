@@ -8,7 +8,7 @@ const AboutMe = () => {
     return (  
         <>
             <div className="text-center">
-                <h2 className="text-uppercase pt-4">Sobre mi</h2>
+                <h2 className="text-uppercase pt-4" id="about-me">Sobre mi</h2>
             </div>
             <hr className='m-auto w-50 mt-3 p-0'/>
             <p className="text-center px-3 py-5 m-auto">Bienvenido a la sección <span className="fw-bold">Sobre mi</span>. En esta sección quiero contarte un poco acerca de quién soy y a qué me dedico.</p>

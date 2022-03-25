@@ -41,10 +41,16 @@ const Navbar = () => {
               </li>
               <hr className="w-100 m-0 m-auto d-md-none"/>
               <li class="nav-item px-2">
+                <a class="nav-link buttons-hover" href="#skills">
+                  Skills
+                </a>
+              </li>
+              <li class="nav-item px-2">
                 <a class="nav-link buttons-hover" href="#projects">
                   Proyectos
                 </a>
               </li>
+              <hr className="w-100 m-0 m-auto d-md-none"/>
               <hr className="w-100 m-0 m-auto d-md-none"/>
               <li class="nav-item px-2">
                 <a class="nav-link buttons-hover" href="#contact">

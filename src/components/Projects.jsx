@@ -7,7 +7,7 @@ import project from "../images/project.png";
 const Projects = () => {
     return ( 
         <div className="main-container">
-            <h1 className="m-auto text-center text-uppercase pb-5">Proyectos</h1>
+            <h1 className="m-auto text-center text-uppercase pb-5" id="projects">Proyectos</h1>
             <h3 className="text-center pt-5 pb-5">Bakery Shop</h3>
             <div className="row mx-0">
                 <div className="col-lg-6">
@@ -21,10 +21,10 @@ const Projects = () => {
                     <div className="m-auto width-buttons">
                         <div className="row mx-0 pt-4">
                             <div className="col-md-6 text-center">
-                                <a href="" className="buttons">Repositorio</a>
+                                <a href="https://github.com/marcom25/panaderia-proyect" target="_blank" className="buttons">Repositorio</a>
                             </div>
                             <div className="col-md-6 text-center p-buttons">
-                                <a href=""className="buttons">Visitar página</a>
+                                <a href="https://panaderia-proyect.netlify.app/" target="_blank" className="buttons">Visitar página</a>
                             </div>
                         </div>
                     </div>

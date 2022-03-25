@@ -2,7 +2,7 @@
 import "../css/Projects.css";
 
 // Images imports
-import project from "../images/project.png";
+import project from "../images/laptopbakery.jpg";
 
 const Projects = () => {
     return ( 
@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="row mx-0">
                 <div className="col-lg-6">
                     <div className="project-width m-auto">
-                        <img src={project} alt="" className="w-100"/>
+                        <img src={project} alt="" className="w-100 img-fluid"/>
                     </div>
                 </div>
                 <div className="col-lg-6 my-auto pt-lg-4">

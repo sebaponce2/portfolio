@@ -43,7 +43,7 @@ const ContactMe = () => {
                     <label className="d-block w-100 pt-5 pb-2">Nombre y apellido</label>
                     <input type="text" name="fullname" id="" className="w-100 border-0 bg-input inputStyles p-2 ps-3" placeholder="Ingresa tu nombre y apellido"/>
                     <label className="d-block w-100 py-2">Correo electrónico</label>
-                    <input type="email" name="mail" id="" className="w-100 border-0 bg-input inputStyles p-2 ps-3" placeholder="Ingresa tu correo electronico"/>
+                    <input type="email" name="mail" id="" className="w-100 border-0 bg-input inputStyles p-2 ps-3" placeholder="Ingresa tu correo electrónico"/>
                     <label className="d-block w-100 py-2">Mensaje</label>
                     <textarea name="message" className="w-100 mb-5 pb-5 border-0 bg-input inputStyles p-2 ps-3" placeholder="Mensaje"></textarea>
                     <div className="position">

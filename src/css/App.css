@@ -7,7 +7,17 @@
     width: 92% !important;
     margin: auto !important;
 }
+.clip-path-presentation {
+    clip-path: polygon(0 0,100% 0,100% 90%,0 100%) !important;
+}
 
+.clip-path-skills {
+    clip-path: polygon(0 0,100% 7%,100% 94%,0 100%) !important;  
+}
+
+.clip-path-contact {
+    clip-path: polygon(0 4%,100% 10%,100% 100%,0 100%) !important;
+}
 .container-page {
     width: 100% !important;
 }

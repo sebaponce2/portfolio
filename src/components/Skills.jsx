@@ -16,9 +16,9 @@ import "../css/Skills.css";
 const Skills = () => {
     return ( 
         <>
-            <h2 className="text-center text-uppercase font-white" id="skills">Skills</h2>
+            <h2 className="text-center text-uppercase font-white font-sans-pro" id="skills">Skills</h2>
             <div className="text-center font-white px-3 py-4">
-                <p className="m-auto pb-5">Estas son las tecnologías con las cuales he trabajado.</p>
+                <p className="m-auto pb-5 font-rubik">Estas son las tecnologías con las cuales he trabajado.</p>
             </div>
             <div className="row container-skills m-auto">
                 <div className="col-6 col-md-4 py-2 my-auto">

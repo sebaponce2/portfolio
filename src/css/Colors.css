@@ -21,3 +21,12 @@
 .font-black {
     color: black !important;
 }
+.font-grey {
+    color: rgb(70, 70, 70) !important;
+}
+
+/* Fonts hover */
+
+.font-grey-hover:hover {
+    color: grey !important;
+}

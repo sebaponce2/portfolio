@@ -39,13 +39,13 @@ const Skills = () => {
                 <div className="col-6 col-md-4 py-2 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s'>
                     <img src={node} alt="node" className="w-100" />
                 </div>
-                <div className="col-6 col-md-4 py-2 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s'>
+                <div className="col-6 col-md-4 pb-2 pt-3 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s'>
                     <img src={express} alt="express" className="w-100"/>
                 </div>
                 <div className="col-6 col-md-4 py-2 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s'>
                     <img src={postman} alt="postman" className="w-100"/>
                 </div>
-                <div className="col-6 col-md-4 py-2 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s'>
+                <div className="col-6 col-md-4 pt-2 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s' style={{paddingBottom: '2.32rem'}}>
                     <img src={mysql} alt="mysql" className="w-100"/>
                 </div>
             </div>

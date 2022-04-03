@@ -26,5 +26,6 @@ p {
 @media  screen and (min-width: 960px) {
     .container-image {
         width: 20% !important;
+        max-width: 18rem !important;
     }
 }

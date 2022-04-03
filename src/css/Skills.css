@@ -21,3 +21,39 @@
         width: 35% !important;
     }
 }
+
+
+.default-animation {
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    cursor: pointer;
+}
+
+.default-animation:hover {
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+}
+
+.react-animation {
+    cursor: pointer;
+}
+
+.react-animation:hover {
+    transition: all 30s;
+    -webkit-transition: all 30s;
+    -moz-transition: all 30s;
+    -ms-transition: all 30s;
+    -o-transition: all 30s;
+    animation-duration: infinite;
+    transform: rotate(2000deg);
+    -webkit-transform: rotate(2000deg);
+    -moz-transform: rotate(2000deg);
+    -ms-transform: rotate(2000deg);
+    -o-transform: rotate(2000deg);
+}

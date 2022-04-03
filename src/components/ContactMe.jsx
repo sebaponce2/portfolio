@@ -47,11 +47,11 @@ const ContactMe = () => {
     return ( 
         <>
             <div className="main-container">
-                <h2 className="text-center text-uppercase font-white m-auto pb-4 font-sans-pro" id="contact">Contacto</h2>
-                <p className="text-center font-white m-auto pb-4 font-rubik">Muchas gracias por visitar mi portfolio. Te invito a contactarme a través del siguiente formulario.</p>
+                <h2 className="text-center text-uppercase font-white m-auto pb-4 font-sans-pro wow fadeIn" id="contact">Contacto</h2>
+                <p className="text-center font-white m-auto pb-4 font-rubik wow fadeIn" data-wow-delay= '1s'>Muchas gracias por visitar mi portfolio. Te invito a contactarme a través del siguiente formulario.</p>
             </div>
             <div className="m-auto pt-4 main-container">
-                <form ref={form} onSubmit={sendEmail} className="form-width bg-white px-3 m-auto formStyles">
+                <form ref={form} onSubmit={sendEmail} className="form-width bg-white px-3 m-auto formStyles wow fadeIn" data-wow-delay= '1s'>
                     <label className="d-block w-100 pt-5 pb-2 font-sans-pro font-grey">Nombre y apellido</label>
                     <input ref={firstInput} type="text" name="fullname" id="" className="w-100 border-0 bg-input inputStyles p-2 ps-3 font-exo-2" placeholder="Ingresa tu nombre y apellido"/>
                     <label className="d-block w-100 py-2 font-sans-pro font-grey">Correo electrónico</label>

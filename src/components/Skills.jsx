@@ -1,3 +1,7 @@
+// Component imports
+import { Icon } from '@iconify/react';
+import gitIcon from '@iconify/icons-cib/git';
+
 // Images imports
 import html from"../images/html-5.svg";
 import css from"../images/css.svg";
@@ -5,12 +9,13 @@ import bootstrap from "../images/bootstrap.svg";
 import javascript from "../images/javascript.svg";
 import react from "../images/react.svg";
 import node from "../images/node.svg";
-import express from "../images/express.svg";
+import express from "../images/expressjs.svg";
 import postman from "../images/postman.svg";
 import mysql from "../images/mysql.svg";
 
 // Css imports 
 import "../css/Skills.css";
+
 
 
 const Skills = () => {
@@ -39,13 +44,16 @@ const Skills = () => {
                 <div className="col-6 col-md-4 py-2 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s'>
                     <img src={node} alt="node" className="w-100" />
                 </div>
-                <div className="col-6 col-md-4 pb-2 pt-3 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s'>
+                <div className="col-6 col-md-4 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s'>
+                    <Icon icon={gitIcon} className="w-100 h-75 text-center m-auto p-3" style={{color:'rgb(206, 39, 39)'}} />
+                </div>
+                <div className="col-6 col-md-4 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s'>
                     <img src={express} alt="express" className="w-100"/>
                 </div>
-                <div className="col-6 col-md-4 py-2 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s'>
-                    <img src={postman} alt="postman" className="w-100"/>
+                <div className="col-6 col-md-4 pb-2 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s'>
+                    <Icon icon="logos:postman" className="w-100 h-100 text-center m-auto"/>
                 </div>
-                <div className="col-6 col-md-4 pt-2 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s' style={{paddingBottom: '2.32rem'}}>
+                <div className="col-6 col-md-4 my-auto wow fadeIn default-animation" data-wow-duration="2s" data-wow-delay= '1s' style={{paddingBottom: '2.32rem'}}>
                     <img src={mysql} alt="mysql" className="w-100"/>
                 </div>
             </div>

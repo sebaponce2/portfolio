@@ -40,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@iconify/icons-cib": "^1.2.2",
+    "@iconify/react": "^3.2.1"
   }
 }

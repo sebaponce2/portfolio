@@ -45,12 +45,12 @@ const Navbar = () => {
                   Skills
                 </a>
               </li>
+              <hr className="w-100 m-0 m-auto d-md-none"/>
               <li class="nav-item px-1">
                 <a class="nav-link font-sans-pro font-grey-hover font-grey font-exo-2" href="#projects">
                   Proyectos
                 </a>
               </li>
-              <hr className="w-100 m-0 m-auto d-md-none"/>
               <hr className="w-100 m-0 m-auto d-md-none"/>
               <li class="nav-item px-1">
                 <a class="nav-link font-sans-pro font-grey-hover font-grey font-exo-2" href="#contact">
